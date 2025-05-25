@@ -9,4 +9,7 @@ public class Square extends Shape{
     double area(){
         return side * side;
     }
+    double perimeter(){
+        return 4 * side;
+    }
 }

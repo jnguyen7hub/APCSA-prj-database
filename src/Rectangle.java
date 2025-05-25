@@ -11,4 +11,7 @@ public class Rectangle extends Shape{
     double area(){
         return base * height;
     }
+    double perimeter(){
+        return (2 * base) + (2 * height);
+    }
 }
